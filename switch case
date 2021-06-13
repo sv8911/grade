@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+     int food_items;
+     printf("enter a foot item: 1:pizza \n 2:burger\n 3:pasta\n 4:fries\n 5:sandwich\n"); 
+     scanf("%d", &food_items); 
+     switch (food_items) 
+     { case 1:
+     printf("pizza: Rs239\n"); 
+     break;
+     case 2:
+     printf("burger: Rs129\n"); 
+     break;
+     case 3:
+     printf("pasta: Rs179\n"); 
+     break;
+     case 4:
+     printf("fries: Rs99\n"); 
+     break;
+     case 5:
+     printf("sandwich: Rs149\n"); 
+     break;
+     default: printf("choose from the given above only\n");
+     }
+    
+}
